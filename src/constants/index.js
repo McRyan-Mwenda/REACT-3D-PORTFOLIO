@@ -141,7 +141,7 @@ import {
       company_name: "Coffee and Bagels",
       icon: cb,
       iconBg: "#383E56",
-      date: "December 2028 - September 2022",
+      date: "December 2018 - September 2022",
       points: [
         "Roasting of coffee",
         "Brewing of specialized coffee brews",
