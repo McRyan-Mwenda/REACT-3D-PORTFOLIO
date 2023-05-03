@@ -104,8 +104,9 @@ const Works = () => {
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-      </div>
-  </>
+    </div>
+    
+  </>   
 )}
 
 
