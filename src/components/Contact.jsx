@@ -53,7 +53,7 @@ const Contact = () => {
       }, (error) => {
         console.log(error);
         setLoading(false);
-        alert('Something went WrapAroundEnding, please try again')
+        alert('Something went wrong, please try again')
       });
   }
 
@@ -83,7 +83,7 @@ const Contact = () => {
           />
         </label>
         <label className='flex flex-col'>
-          <span className='text-white fotn-medium mb-4'>Your Email...</span>
+          <span className='text-white font-medium mb-4'>Your Email...</span>
           <input
             type='email'
             name='email'
@@ -94,7 +94,7 @@ const Contact = () => {
           />
         </label>
         <label className='flex flex-col'>
-          <span className='text-white fotn-medium mb-4'>Your Message</span>
+          <span className='text-white font-medium mb-4'>Your Message</span>
           <textarea
             rows='7'
             name='message'
