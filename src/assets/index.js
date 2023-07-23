@@ -42,6 +42,8 @@ import hut from "./hut.png"
 import MicroChip from "./MicroChip.png"
 import Mountains from "./Mountains.png"
 import Office from "./Office.png"
+import Office2 from "./Office2.png"
+import Env from "./Env.png"
 import Sunset from "./Sunset.png"
 import Volcano from "./Volcano.png"
 
@@ -86,6 +88,8 @@ export {
   MicroChip,
   Mountains,
   Office,
+  Office2,
   Sunset,
-  Volcano
+  Volcano,
+  Env,
 };

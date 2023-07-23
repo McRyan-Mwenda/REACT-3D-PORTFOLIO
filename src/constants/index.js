@@ -34,8 +34,10 @@ import {
     MicroChip,
     Mountains,
     Office,
+    Office2,
     Sunset,
-    Volcano
+    Volcano,
+    Env
   } from "../assets";
   
   export const navLinks = [
@@ -295,6 +297,27 @@ import {
       instagram_link: "https://www.instagram.com/macryan_mwenda/",
     },
     {
+      name: "Office Render",
+      description:
+        "This is an interior design of an Office made in Blender 3D and rendered in Cycles render engine",
+      tags: [
+        {
+          name: "Design",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "b3D",
+          color: "green-text-gradient",
+        },
+        {
+          name: "cycles",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Office2,
+      instagram_link: "https://www.instagram.com/macryan_mwenda/",
+    },
+    {
       name: "Mountain Environment Render",
       description:
         "This is a render for environment done in Blender 3D and rendered in Cycles render engine",
@@ -439,6 +462,27 @@ import {
         },
       ],
       image: hut,
+      instagram_link: "https://www.instagram.com/macryan_mwenda/",
+    },
+    {
+      name: "Stylized Render",
+      description:
+        "This is a design of a stylized house made in Blender 3D and rendered in Evee render engine",
+      tags: [
+        {
+          name: "stylized",
+          color: "brown-text-gradient",
+        },
+        {
+          name: "b3D",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Evee",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Env,
       instagram_link: "https://www.instagram.com/macryan_mwenda/",
     },
   ];
